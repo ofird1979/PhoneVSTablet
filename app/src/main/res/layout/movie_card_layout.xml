@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/linear_movie"
+    android:adjustViewBounds="true"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/fab_margin"
+    card_view:cardCornerRadius="@dimen/card_corner_radius"
+    android:elevation="@dimen/cardview_default_elevation"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_view_movie"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cardview_image_height"
+        app:srcCompat="@mipmap/load"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/imageview_desc" />
+
+    <TextView
+        android:id="@+id/text_movie_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_view_movie"
+        android:paddingLeft="@dimen/movie_title_padding"
+        android:paddingRight="@dimen/movie_title_padding"
+        android:paddingTop="@dimen/movie_title_padding"
+        android:textColor="@color/movie_title"
+        android:textSize="@dimen/movie_title"
+        />
+
+    <TextView
+        android:id="@+id/text_movie_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_movie_title"
+        android:paddingLeft="@dimen/movie_title_padding"
+        android:paddingRight="@dimen/movie_title_padding"
+        android:paddingTop="@dimen/movie_title_padding"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/user_rating"
+        />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

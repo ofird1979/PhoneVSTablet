@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">PhoneVSTablet</string>
+    <string name="tab_text_1">Favorite Movies</string>
+    <string name="tab_text_2">Most Popular</string>
+    <string name="tab_text_3">Top Rated</string>
+    <string name="tab_text_4">Search Movie</string>
+    <string name="name_movie">Movie Title</string>
+    <string name="movie_details">Movie Details</string>
+    <string name="plot">Plot Synopsis</string>
+    <string name="rating">Rating</string>
+    <string name="release">Release Date</string>
+    <string name="pref_most_popular">Popular</string>
+    <string name="pref_highest_rated">Top Rated</string>
+    <string name="trailer">Trailer</string>
+    <string name="favorite">My Movies</string>
+    <string name="exit">Exit</string>
+    <string name="deleteAll">Delete favorites</string>
+    <string name="image_url">Image URL</string>
+    <string name="id_movie">Record num</string>
+    <string name="tmdbid_movie">Movie Id on TMDB</string>
+    <string name="add">Add Custom Movie</string>
+    <string name="find">search</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="pref_sort_order_label">sortOrder</string>
+    <string name="pref_sort_order_key">sortKey</string>
+    <string name="searchHint">enter movie name to search</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imageview_desc">image loader through glide</string>
+    <string name="image_detailed_view">thumbnail for detailed view of movie</string>
+    <string name="menu">Menu</string>
+    <string name="delete_all_title">Delete all movies from favorites</string>
+    <string name="delete_all_question">This action will delete all your favorite movies</string>
+    <string name="delete_all_pos_button">Delete all</string>
+</resources>
